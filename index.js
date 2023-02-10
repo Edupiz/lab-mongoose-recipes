@@ -56,7 +56,7 @@ mongoose
   .then(() =>{
     console.log("me voy a desconectar")
     mongoose.disconnect();
-    process.kill(process.pid);
+    // process.kill(process.pid);
   })
     // Run your code here, after you have insured that the connection was made
   .catch(error => {
